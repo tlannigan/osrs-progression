@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:smithing/lvl90",
+  "parent": "osrs:smithing/lvl90",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

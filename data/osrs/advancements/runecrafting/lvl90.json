@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:runecrafting/lvl80",
+  "parent": "osrs:runecrafting/lvl80",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:thieving/lvl20",
+  "parent": "osrs:thieving/lvl20",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

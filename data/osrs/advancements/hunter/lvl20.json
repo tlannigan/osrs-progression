@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:hunter/lvl10",
+    "parent": "osrs:hunter/lvl10",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

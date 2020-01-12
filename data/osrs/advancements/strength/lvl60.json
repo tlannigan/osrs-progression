@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:strength/lvl50",
+    "parent": "osrs:strength/lvl50",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

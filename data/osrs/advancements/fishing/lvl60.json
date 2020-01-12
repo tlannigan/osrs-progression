@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:fishing/lvl50",
+  "parent": "osrs:fishing/lvl50",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:fletching/lvl40",
+  "parent": "osrs:fletching/lvl40",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

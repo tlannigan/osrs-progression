@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:construction/lvl90",
+  "parent": "osrs:construction/lvl90",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:firemaking/lvl70",
+  "parent": "osrs:firemaking/lvl70",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

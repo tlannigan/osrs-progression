@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:farming/lvl20",
+  "parent": "osrs:farming/lvl20",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

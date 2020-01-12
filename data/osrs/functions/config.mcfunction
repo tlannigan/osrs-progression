@@ -26,9 +26,9 @@ scoreboard objectives add cfg_mod_wood dummy
 scoreboard objectives add cfg_mod_div dummy
 scoreboard players set osrs cfg_mod_div 100
 
-#
-# Change any values below to your liking
-#
+############################################
+#  Change any values below to your liking  #
+############################################
 
 # Set experience modifiers for each skill [100 = 100%, default = 100]
 scoreboard players set osrs cfg_mod_agil 100

@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:mining/lvl10",
+    "parent": "osrs:mining/lvl10",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

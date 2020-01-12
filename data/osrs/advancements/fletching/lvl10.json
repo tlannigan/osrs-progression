@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:fletching/fletching",
+    "parent": "osrs:fletching/fletching",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

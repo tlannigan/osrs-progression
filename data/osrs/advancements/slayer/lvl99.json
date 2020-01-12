@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:slayer/lvl90",
+  "parent": "osrs:slayer/lvl90",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

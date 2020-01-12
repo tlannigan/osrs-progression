@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:magic/lvl40",
+  "parent": "osrs:magic/lvl40",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:prayer/lvl30",
+  "parent": "osrs:prayer/lvl30",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

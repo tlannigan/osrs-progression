@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:prayer/prayer",
+    "parent": "osrs:prayer/prayer",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

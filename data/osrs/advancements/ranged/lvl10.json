@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:ranged/ranged",
+    "parent": "osrs:ranged/ranged",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

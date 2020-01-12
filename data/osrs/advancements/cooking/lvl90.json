@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:cooking/lvl80",
+  "parent": "osrs:cooking/lvl80",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:crafting/lvl30",
+  "parent": "osrs:crafting/lvl30",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

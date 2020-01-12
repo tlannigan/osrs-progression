@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:herblore/lvl40",
+  "parent": "osrs:herblore/lvl40",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

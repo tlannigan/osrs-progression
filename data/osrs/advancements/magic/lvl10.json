@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:magic/magic",
+    "parent": "osrs:magic/magic",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:runecrafting/runecrafting",
+    "parent": "osrs:runecrafting/runecrafting",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

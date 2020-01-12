@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:woodcutting/lvl10",
+    "parent": "osrs:woodcutting/lvl10",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

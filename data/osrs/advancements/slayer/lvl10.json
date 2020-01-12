@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:slayer/slayer",
+    "parent": "osrs:slayer/slayer",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

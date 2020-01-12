@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:ranged/lvl70",
+  "parent": "osrs:ranged/lvl70",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

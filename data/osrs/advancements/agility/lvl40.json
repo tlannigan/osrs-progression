@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:agility/lvl30",
+  "parent": "osrs:agility/lvl30",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"

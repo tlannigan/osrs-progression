@@ -6,7 +6,7 @@
             "item": "minecraft:stone_sword"
         }
     },
-    "parent": "stats:farming/farming",
+    "parent": "osrs:farming/farming",
     "criteria": {
         "trigger_1": {
             "trigger": "minecraft:impossible"

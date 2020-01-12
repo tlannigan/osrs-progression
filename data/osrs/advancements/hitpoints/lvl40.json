@@ -6,7 +6,7 @@
           "item": "minecraft:stone_sword"
       }
   },
-  "parent": "stats:hitpoints/lvl30",
+  "parent": "osrs:hitpoints/lvl30",
   "criteria": {
       "trigger_1": {
           "trigger": "minecraft:impossible"
