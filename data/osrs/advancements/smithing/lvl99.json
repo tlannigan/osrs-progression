@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Level 99",
+      "description": "Flavour text here",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:smithing/lvl90",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

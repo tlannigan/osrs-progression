@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Level 70",
+      "description": "Flavour text here",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:farming/lvl60",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

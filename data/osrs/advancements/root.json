@@ -1,0 +1,16 @@
+{
+    "display": {
+        "title": "Old School RuneScape",
+        "description": "Sea Shanty 2",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"MrCreamsicle\"}"
+        },
+        "background": "minecraft:textures/block/barrel_bottom.png"
+    },
+    "criteria": {
+        "trigger_1": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

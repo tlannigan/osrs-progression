@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Level 50",
+      "description": "Flavour text here",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:fishing/lvl40",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

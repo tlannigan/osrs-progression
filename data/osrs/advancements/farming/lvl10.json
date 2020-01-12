@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Level 10",
+        "description": "Flavour text",
+        "icon": {
+            "item": "minecraft:stone_sword"
+        }
+    },
+    "parent": "stats:farming/farming",
+    "criteria": {
+        "trigger_1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Woodcutting",
+      "description": "Flavour text",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:root",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

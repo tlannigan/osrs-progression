@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Level 40",
+      "description": "Flavour text here",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:hunter/lvl30",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

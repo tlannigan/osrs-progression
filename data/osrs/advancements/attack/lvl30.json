@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Level 30",
+      "description": "Flavour text here",
+      "icon": {
+          "item": "minecraft:stone_sword"
+      }
+  },
+  "parent": "stats:attack/lvl20",
+  "criteria": {
+      "trigger_1": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}
