@@ -7,7 +7,7 @@ function osrs:skills/attack/main
 # function osrs:skills/construction/main
 # function osrs:skills/cooking/main
 # function osrs:skills/crafting/main
-# function osrs:skills/defence/main
+function osrs:skills/defence/main
 # function osrs:skills/farming/main
 # function osrs:skills/firemaking/main
 # function osrs:skills/fishing/main

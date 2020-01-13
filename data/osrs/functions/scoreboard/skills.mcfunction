@@ -28,11 +28,11 @@ execute as @s if score @s attack_lvl matches 0 run scoreboard players add @s att
 # execute as @s if score @s crafting_lvl matches 0 run scoreboard players set @s crafting_req_exp 83
 # execute as @s if score @s crafting_lvl matches 0 run scoreboard players add @s crafting_lvl 1
 
-# # Defence [6]
-# execute as @s run scoreboard players add @s defence_lvl 0
-# execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_exp 0
-# execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_req_exp 83
-# execute as @s if score @s defence_lvl matches 0 run scoreboard players add @s defence_lvl 1
+# Defence [6]
+execute as @s run scoreboard players add @s defence_lvl 0
+execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_exp 0
+execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_req_exp 83
+execute as @s if score @s defence_lvl matches 0 run scoreboard players add @s defence_lvl 1
 
 # # Farming [7]
 # execute as @s run scoreboard players add @s farming_lvl 0
