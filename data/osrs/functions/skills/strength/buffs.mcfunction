@@ -20,4 +20,4 @@ execute as @s[tag=holdingAxe] if score @s strength_lvl matches 60..69 run effect
 execute as @s[tag=holdingAxe] if score @s strength_lvl matches 70..79 run effect give @s minecraft:strength 9999 6
 execute as @s[tag=holdingAxe] if score @s strength_lvl matches 80..89 run effect give @s minecraft:strength 9999 7
 execute as @s[tag=holdingAxe] if score @s strength_lvl matches 90..98 run effect give @s minecraft:strength 9999 8
-execute as @s[tag=holdingAxe] if score @s strength_lvl matches 99.. run effect give @s minecraft:strength   9999 9
+execute as @s[tag=holdingAxe] if score @s strength_lvl matches 99.. run effect give @s minecraft:strength 9999 9
