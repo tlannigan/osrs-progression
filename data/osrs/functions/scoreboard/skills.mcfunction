@@ -6,9 +6,11 @@
 
 # Attack [2]
 execute as @s run scoreboard players add @s attack_lvl 0
+execute as @s if score @s attack_lvl matches 0 run scoreboard players set @s attack_earned 0
 execute as @s if score @s attack_lvl matches 0 run scoreboard players set @s attack_exp 0
 execute as @s if score @s attack_lvl matches 0 run scoreboard players set @s attack_req_exp 83
 execute as @s if score @s attack_lvl matches 0 run scoreboard players add @s attack_lvl 1
+execute as @s if score @s attack_lvl matches 0.. run advancement grant @s only osrs:attack/attack
 
 # # Construction [3]
 # execute as @s run scoreboard players add @s constrct_lvl 0
@@ -30,9 +32,11 @@ execute as @s if score @s attack_lvl matches 0 run scoreboard players add @s att
 
 # Defence [6]
 execute as @s run scoreboard players add @s defence_lvl 0
+execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_earned 0
 execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_exp 0
 execute as @s if score @s defence_lvl matches 0 run scoreboard players set @s defence_req_exp 83
 execute as @s if score @s defence_lvl matches 0 run scoreboard players add @s defence_lvl 1
+execute as @s if score @s defence_lvl matches 0.. run advancement grant @s only osrs:defence/defence
 
 # # Farming [7]
 # execute as @s run scoreboard players add @s farming_lvl 0
@@ -64,11 +68,13 @@ execute as @s if score @s defence_lvl matches 0 run scoreboard players add @s de
 # execute as @s if score @s herblore_lvl matches 0 run scoreboard players set @s herblore_req_exp 83
 # execute as @s if score @s herblore_lvl matches 0 run scoreboard players add @s herblore_lvl 1
 
-# # Hitpoints [12]
-# execute as @s run scoreboard players add @s hitpoint_lvl 0
-# execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_exp 0
-# execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_req_exp 83
-# execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players add @s hitpoint_lvl 1
+# Hitpoints [12]
+execute as @s run scoreboard players add @s hitpoint_lvl 0
+execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_earned 0
+execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_exp 1154
+execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_req_exp 1358
+execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s hitpoint_lvl 10
+execute as @s if score @s hitpoint_lvl matches 0.. run advancement grant @s only osrs:hitpoints/hitpoints
 
 # # Hunter [13]
 # execute as @s run scoreboard players add @s hunter_lvl 0
@@ -120,9 +126,11 @@ execute as @s if score @s defence_lvl matches 0 run scoreboard players add @s de
 
 # Strength [21]
 execute as @s run scoreboard players add @s strength_lvl 0
+execute as @s if score @s strength_lvl matches 0 run scoreboard players set @s strength_earned 0
 execute as @s if score @s strength_lvl matches 0 run scoreboard players set @s strength_exp 0
 execute as @s if score @s strength_lvl matches 0 run scoreboard players set @s strength_req_exp 83
 execute as @s if score @s strength_lvl matches 0 run scoreboard players add @s strength_lvl 1
+execute as @s if score @s strength_lvl matches 0.. run advancement grant @s only osrs:strength/strength
 
 # # Thieving [22]
 # execute as @s run scoreboard players add @s thieving_lvl 0

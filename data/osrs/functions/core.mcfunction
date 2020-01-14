@@ -13,7 +13,7 @@ function osrs:skills/defence/main
 # function osrs:skills/fishing/main
 # function osrs:skills/fletching/main
 # function osrs:skills/herblore/main
-# function osrs:skills/hitpoints/main
+# Hitpoints below
 # function osrs:skills/hunter/main
 # function osrs:skills/magic/main
 # function osrs:skills/mining/main
@@ -25,3 +25,6 @@ function osrs:skills/defence/main
 function osrs:skills/strength/main
 # function osrs:skills/thieving/main
 # function osrs:skills/woodcutting/main
+
+# Runs after all combat skills
+function osrs:skills/hitpoints/main

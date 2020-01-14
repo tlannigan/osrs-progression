@@ -14,7 +14,7 @@ function osrs:skills/defence/install
 # function osrs:skills/fishing/install
 # function osrs:skills/fletching/install
 # function osrs:skills/herblore/install
-# function osrs:skills/hitpoints/install
+function osrs:skills/hitpoints/install
 # function osrs:skills/hunter/install
 # function osrs:skills/magic/install
 # function osrs:skills/mining/install

@@ -30,7 +30,7 @@ scoreboard players set osrs cfg_mod_div 100
 #  Change any values below to your liking  #
 ############################################
 
-# Set experience modifiers for each skill [100 = 100%]
+# Set experience modifiers for each skill
 
 # Agility
 scoreboard players set osrs cfg_mod_agil 100
@@ -47,8 +47,8 @@ scoreboard players set osrs cfg_mod_cook 100
 # Crafting
 scoreboard players set osrs cfg_mod_crft 100
 
-# Defence
-scoreboard players set osrs cfg_mod_defc 100
+# Defence [default = 50]
+scoreboard players set osrs cfg_mod_defc 50
 
 # Farming
 scoreboard players set osrs cfg_mod_farm 100
@@ -65,7 +65,7 @@ scoreboard players set osrs cfg_mod_flet 100
 # Herblore
 scoreboard players set osrs cfg_mod_herb 100
 
-# Hitpoints
+# Hitpoints [default = 100]
 scoreboard players set osrs cfg_mod_hitp 100
 
 # Hunting
