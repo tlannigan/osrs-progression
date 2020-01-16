@@ -1,11 +1,11 @@
 # Calculate EXP for damage blocked and taken
 execute as @a at @s run scoreboard players operation @s defence_earn_1 *= osrs cfg_mod_defc
-execute as @a at @s run scoreboard players operation @s defence_earn_1 /= osrs cfg_mod_div
+execute as @a at @s run scoreboard players operation @s defence_earn_1 /= osrs cfg_mod_100
 execute as @a at @s run scoreboard players operation @s defence_earned += @s defence_earn_1
 execute as @a at @s run scoreboard players set @s defence_earn_1 0
 
 execute as @a at @s run scoreboard players operation @s defence_earn_2 *= osrs cfg_mod_defc
-execute as @a at @s run scoreboard players operation @s defence_earn_2 /= osrs cfg_mod_div
+execute as @a at @s run scoreboard players operation @s defence_earn_2 /= osrs cfg_mod_100
 execute as @a at @s run scoreboard players operation @s defence_earned += @s defence_earn_2
 execute as @a at @s run scoreboard players set @s defence_earn_2 0
 

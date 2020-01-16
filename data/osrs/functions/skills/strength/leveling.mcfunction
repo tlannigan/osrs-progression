@@ -1,6 +1,6 @@
 # Add axe damage to exp then reset
 execute as @a at @s[tag=holdingAxe] run scoreboard players operation @s strength_earned *= osrs cfg_mod_stre
-execute as @a at @s[tag=holdingAxe] run scoreboard players operation @s strength_earned /= osrs cfg_mod_div
+execute as @a at @s[tag=holdingAxe] run scoreboard players operation @s strength_earned /= osrs cfg_mod_100
 
 execute as @a at @s[tag=holdingAxe] if score @s strength_earned matches 1.. run title @s actionbar [{"text": "+ "}, {"score":{"name":"@s","objective":"strength_earned"}, "color": "green", "bold": true}, {"text": " Strength EXP"}]
 execute as @a at @s[tag=holdingAxe] run scoreboard players operation @s strength_exp += @s strength_earned

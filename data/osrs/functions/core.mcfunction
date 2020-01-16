@@ -1,4 +1,4 @@
-# Initialize scoreboards
+# Initialize new players
 execute as @a at @s run function osrs:scoreboard/skills
 
 # Skills (Comment any line out to disable the skill)

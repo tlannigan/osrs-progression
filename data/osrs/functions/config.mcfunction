@@ -23,8 +23,8 @@ scoreboard objectives add cfg_mod_stre dummy
 scoreboard objectives add cfg_mod_thiv dummy
 scoreboard objectives add cfg_mod_wood dummy
 
-scoreboard objectives add cfg_mod_div dummy
-scoreboard players set osrs cfg_mod_div 100
+scoreboard objectives add cfg_mod_100 dummy
+scoreboard players set osrs cfg_mod_100 100
 
 ############################################
 #  Change any values below to your liking  #

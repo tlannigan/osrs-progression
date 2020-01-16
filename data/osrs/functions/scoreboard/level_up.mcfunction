@@ -96,12 +96,14 @@ execute as @a at @s if score @s skill_level matches 95 run scoreboard players se
 execute as @a at @s if score @s skill_level matches 96 run scoreboard players set @s lvl_exp_required 10692629
 execute as @a at @s if score @s skill_level matches 97 run scoreboard players set @s lvl_exp_required 11805606
 execute as @a at @s if score @s skill_level matches 98 run scoreboard players set @s lvl_exp_required 13034431
-# execute as @a at @s if score @s skill_level matches 99 run scoreboard players set @s lvl_exp_required
+execute as @a at @s if score @s skill_level matches 99 run scoreboard players set @s lvl_exp_required 200000000
 
-# Leveling toasts
-execute as @a at @s if score @s skill_to_level matches 12 run title @s times 5 60 5
-execute as @a at @s run subtitle @s [{"text": "Level ", "color": "gold"}, {"score": {"name": "@s", "objective": "skill_level"}, "color": "gold"}]
+# Leveling celebrations
+execute as @a at @s run title @s times 5 60 5
+execute as @a at @s run title @s subtitle [{"text": "Level "}, {"score": {"name": "@s", "objective": "skill_level"}, "color": "gold"}]
 execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 5 0.5
 execute as @a at @s run effect give @s minecraft:resistance 1 4 true
 execute as @a at @s run summon firework_rocket ~ ~2 ~ {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;11743532,3887386,8073150,14602026]}]}}}}
 execute as @a at @s run summon firework_rocket ~-2 ~2 ~-3 {LifeTime:20,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:0,Trail:1,Colors:[I;11743532,3887386,8073150,14602026]}]}}}}
+
+execute as @a at @s run function osrs:scoreboard/combat_level

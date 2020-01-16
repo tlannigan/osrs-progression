@@ -1,6 +1,6 @@
 # Add sword damage to exp
 execute as @a at @s[tag=holdingSword] run scoreboard players operation @s attack_earned *= osrs cfg_mod_atck
-execute as @a at @s[tag=holdingSword] run scoreboard players operation @s attack_earned /= osrs cfg_mod_div
+execute as @a at @s[tag=holdingSword] run scoreboard players operation @s attack_earned /= osrs cfg_mod_100
 
 execute as @a at @s[tag=holdingSword] if score @s attack_earned matches 1.. run title @s actionbar [{"text": "+ "}, {"score":{"name":"@s","objective":"attack_earned"}, "color": "green", "bold": true}, {"text": " Attack EXP"}]
 execute as @a at @s[tag=holdingSword] run scoreboard players operation @s attack_exp += @s attack_earned
