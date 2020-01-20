@@ -17,7 +17,7 @@ function osrs:skills/defence/install
 function osrs:skills/hitpoints/install
 # function osrs:skills/hunter/install
 # function osrs:skills/magic/install
-# function osrs:skills/mining/install
+function osrs:skills/mining/install
 function osrs:skills/prayer/install
 # function osrs:skills/ranged/install
 # function osrs:skills/runecrafting/install
@@ -33,7 +33,7 @@ scoreboard objectives add melee_combat_lvl dummy
 scoreboard objectives add range_combat_lvl dummy
 scoreboard objectives add magic_combat_lvl dummy
 scoreboard objectives add high_combat_lvl dummy
-scoreboard objectives add real_combat_lvl dummy "Combat Lvl"
+scoreboard objectives add real_combat_lvl dummy "Combat"
 
 # Combat level equation constants
 scoreboard objectives add base_combat_2 dummy

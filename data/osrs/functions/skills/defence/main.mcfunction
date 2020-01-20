@@ -1,5 +1,5 @@
 # Defence EXP
-execute as @a at @s run tellraw @s [{"text": "Defence Exp: "}, {"score":{"name":"@s","objective":"defence_exp"}, "color": "green", "bold": true}, {"text": "/"}, {"score":{"name":"@s","objective":"defence_req_exp"}, "color": "green", "bold": true}]
+# execute as @a at @s run tellraw @s [{"text": "Defence Exp: "}, {"score":{"name":"@s","objective":"defence_exp"}, "color": "green", "bold": true}, {"text": "/"}, {"score":{"name":"@s","objective":"defence_req_exp"}, "color": "green", "bold": true}]
 # execute as @a at @s run tellraw @s [{"text": "Defence Level: "},{"score":{"name":"@s","objective":"strength_lvl"}, "color": "green", "bold": true}]
 
 # Check if player is holding a shield

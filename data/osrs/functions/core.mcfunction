@@ -16,7 +16,7 @@ function osrs:skills/defence/main
 # Hitpoints below
 # function osrs:skills/hunter/main
 # function osrs:skills/magic/main
-# function osrs:skills/mining/main
+function osrs:skills/mining/main
 # function osrs:skills/prayer/main
 # function osrs:skills/ranged/main
 # function osrs:skills/runecrafting/main

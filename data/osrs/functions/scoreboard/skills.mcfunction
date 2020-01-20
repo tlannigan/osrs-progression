@@ -88,11 +88,12 @@ execute as @s if score @s hitpoint_lvl matches 0 run scoreboard players set @s h
 # execute as @s if score @s magic_lvl matches 0 run scoreboard players set @s magic_req_exp 83
 # execute as @s if score @s magic_lvl matches 0 run scoreboard players add @s magic_lvl 1
 
-# # Mining [15]
-# execute as @s run scoreboard players add @s mining_lvl 0
-# execute as @s if score @s mining_lvl matches 0 run scoreboard players set @s mining_exp 0
-# execute as @s if score @s mining_lvl matches 0 run scoreboard players set @s mining_req_exp 83
-# execute as @s if score @s mining_lvl matches 0 run scoreboard players add @s mining_lvl 1
+# Mining [15]
+execute as @s run scoreboard players add @s mining_lvl 0
+execute as @s if score @s mining_lvl matches 0 run advancement grant @s only osrs:mining/mining
+execute as @s if score @s mining_lvl matches 0 run scoreboard players set @s mining_exp 0
+execute as @s if score @s mining_lvl matches 0 run scoreboard players set @s mining_req_exp 83
+execute as @s if score @s mining_lvl matches 0 run scoreboard players add @s mining_lvl 1
 
 # Prayer [16]
 execute as @s run scoreboard players add @s prayer_lvl 0
@@ -124,7 +125,7 @@ execute as @s if score @s prayer_lvl matches 0 run scoreboard players add @s pra
 # execute as @s if score @s smithing_lvl matches 0 run scoreboard players set @s smithing_req_exp 83
 # execute as @s if score @s smithing_lvl matches 0 run scoreboard players add @s smithing_lvl 1
 
-# Strength [21]
+# Strength [21] (and combat level display)
 execute as @s run scoreboard players add @s strength_lvl 0
 execute as @s if score @s strength_lvl matches 0 run advancement grant @s only osrs:strength/strength
 execute as @s if score @s strength_lvl matches 0 run scoreboard players set @s strength_earned 0
